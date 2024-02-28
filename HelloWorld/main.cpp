@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include "header.hpp"
+#include <cstdlib>
 using namespace std;
 
 int main() {
@@ -21,4 +22,9 @@ int main() {
     cin >> myString;
     print("your number:");
     print(myString);
+    
+    for (int i = 0; i < 10; ++i)
+    {
+        cout << i << endl;
+    }
 }
